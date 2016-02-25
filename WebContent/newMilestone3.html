@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="milestone3CSS.css">
+		<script src="milestone3.js"></script>
+		<title>CollegeApplication</title>
+	</head>
+	<body>
+		<div class = "header">
+			<div class = "login" id ="backgroundtochange">
+				<p>You are logged in as <b>isabellagc</b></p>
+				<img src ="Picture2.jpg">
+				<br>
+				<h3>Today's Date: <span id = "simpleDate"></span></h3>
+				What color would you like the background to be?  
+				<select id ="colorsForBackground">
+					<option value = "Black">Black</option>
+					<option value = "Red">Red</option>
+					<option value = "Orange">Orange</option>
+					<option value = "Yellow">Yellow</option>
+					<option value = "Green">Green</option>
+					<option value = "Blue">Blue</option>
+					<option value = "Purple">Purple</option>
+					<option value = "OTHER">OTHER</option>
+				</select>	
+			</div>
+			<h1>HNA College Application Tool</h1>
+		</div>
+		Make Invisible?
+		<input type = "checkbox" id ="hideText">
+		<div class = "form1" id = "invisibleText">
+			<h2>Please enter a new college application:</h2>
+			<form class = "inputname">
+				College Name:
+				<input type = "text" name = "College Name" id = "CollegeName1">
+				School Type:
+				<select name = "School Type">
+					<option value = "Safety"> Safety </option>
+					<option value = "Match"> Match</option>
+					<option value = "Reach"> Reach </option>
+				</select>
+				Admitted:
+				<input type = "checkbox" name = "Admitted">
+				<br>
+				<input type = "submit" id = "collegesubmitbutton" class = "button" value = "Submit">
+			</form>
+		</div>
+
+		<div class = "collegeentered">
+			<h4>Harvard</h4>
+			<p>Category: SAFETY</p>
+			<p id = "italic">Admitted: false</p>
+		</div>
+
+		<div class = "taskDetails">
+			<form class = "form2">
+				<h4>Please input task details for Harvard:</h4>
+				Task:
+				<input type = "text" name = "College Name" >
+				Due Date:
+				<input type = "text" name = "College Name" >
+				<input type = "submit" class = "button" value = "Submit">
+			</form>
+		<div class = "mocktaskdata">
+			<h3>Tasks:</h3>
+			<ul>
+				<li>
+					<p class = "tasktitle">Study a lot</p>
+					<p id = "italic"> Due Date: 12/31/15</p>
+				</li>
+				<li>
+					<p class = "tasktitle">Take the SAT</p>
+					<p id = "italic"><a href = "http://www.buzzfeed.com/evernevera/is-ryan-gosling-or-ryan-reynolds-your-soulmate-16hvl#.osglGRrpn">Due Date: 11/09/16</a></p>
+				</li>
+			</ul>
+			
+
+		</div>
+		
+		<div class = "collegeentered">
+			<h4>University of Washington</h4>
+			<p>Category: REACH</p>
+			<p id = "italic">Admitted: false</p>
+		</div>
+
+			<form class = "form2">
+				<h4>Please input task details for University of Washington:</h4>
+				Task:
+				<input type = "text" name = "College Name" >
+				Due Date:
+				<input type = "text" name = "College Name" >
+				<input type = "submit" class = "button"value = "Submit">
+			</form>
+		</div>
+	</body>
+</html>
